@@ -30,7 +30,7 @@ _2. the call src and dest is not inside the elevator last call <br>
 _3. the call src is inside and the call dest is outside the elevator last call <br>
 2.2  the call and the elevator is in opposite directions <br>
 
-## time running
+## running time
 
 |  | call_a  | call_b | call_c | call_d |
 | :---         |     :---:      |          ---: |     :---:      |          ---: | 
