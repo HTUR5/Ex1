@@ -32,10 +32,10 @@ _3. the call src is inside and the call dest is outside the elevator last call <
 
 ## time running
 
-| :---  | call_a  | call_b | call_c | call_d |
+|  | call_a  | call_b | call_c | call_d |
 | :---         |     :---:      |          ---: |     :---:      |          ---: | 
-| B1   | 112/0     |  :---:    |     :---:      |          ---: |
-| B2     | 49/0      |  :---:      |     :---:      |          ---: |
+| B1   | 112/0     |      |          |         |
+| B2     | 49/0      |       |           |           |
 | B3    | 29/0     | 526/174     |    575/99      |          538/88  |
 | B4           | 17/0           | 190/6        | 180/3       |     174/3    |  
 | B5           | 11/0           | 34/0         | 33/0        |     34/0     |
