@@ -15,7 +15,7 @@ https://www.geeksforgeeks.org/smart-elevator-pro-geek-cup/
 while reading this files, we are creatig an object of each call and each elevator. <br>
 so that in the end of the reading we have list of calls and list of elevators. <br>
 2. we are passing the call list. for each call we are using the calc function for checking how much time this call take for every elevator in the elevator list. <br>
-3. we are embes the call for the elevator which return the minimum time.
+3. we are embed the call for the elevator which return the minimum time.
 
 the calc function: <br>
 for each elevator we have all the data about her id, speed, minFloor, maxFloor, closeTime, openTime, startTime, stopTime, src, dest, time. <br>
@@ -24,7 +24,7 @@ we are calculate the time of each call for some elevator through the elevator cl
 for each call we calculate the waiting time for the call, and the timeEnd for this elevator with the call, according to this option: <br>
 1. the elevator endWork end befor the call time. <br>
 2. if not: <br>
-2.1: the call and the elevator is in the same direction and the elevator is not paassing the call source while it drive <br>
+2.1: the call and the elevator is in the same direction and the elevator is not paassing the call source while it driving <br>
 _1. the call src and dest is inside the elevator last call <br>
 _2. the call src and dest is not inside the elevator last call <br>
 _3. the call src is inside and the call dest is outside the elevator last call <br>
